@@ -1,7 +1,7 @@
 .adv-container {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 28px;
+  gap: 28px;
   background-color: #0c0c0c;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(/img/img_advertisement/adv_img_mobile@1.png);
@@ -17,7 +17,7 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
+  color: var(--background);
 }
 
 .adv-text-item {
@@ -30,7 +30,7 @@
   justify-content: center;
   background-color: #d9d9d9;
   text-align: center;
-  color: #fbfbfb;
+  color: var(--background);
   width: 160px;
   height: 48px;
   border-radius: 16px;
@@ -57,20 +57,20 @@
   .adv-text {
     line-height: 0.92;
     letter-spacing: -0.02em;
-    color: #fbfbfb;
+    color: var(--background);
 
     max-width: 388px;
   }
 
   .adv-btn {
     background-color: rgba(0, 0, 0, 0);
-    color: #fbfbfb;
+    color: var(--background);
     transition: background-color 250ms linear;
   }
 
   .adv-btn:hover,
   .adv-btn:focus {
-    background-color: #fbfbfb;
+    background-color: var(--background);
     color: #0c0c0c;
   }
 }
@@ -100,7 +100,7 @@
   .adv-text {
     line-height: 0.92;
     letter-spacing: -0.02em;
-    color: #fbfbfb;
+    color: var(--background);
   }
 
   .adv-btn {
