@@ -37,7 +37,7 @@ text-align: left;
 }
 
 .view-catalog-button{
-    width: 160px;
+width: 160px;
 height: 48px;
 top: 404px;
 left: 60px;
@@ -52,10 +52,9 @@ text-align: center;
 color: rgba(251, 251, 251, 1);
 }
 .about-us-img{
-    width: 530px;
+width: 530px;
 height: 532px;
 gap: 0px;
 border-radius: 50px 0px 0px 0px;
 opacity: 0px;
-
 }
