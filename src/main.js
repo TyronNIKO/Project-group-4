@@ -15,7 +15,8 @@ function changePhotoSale(e) {
     console.log(e.target.dataset.src);
 
     let src = e.target.dataset.src;
-    let mainImage = document.querySelector('.sale-image *');
+    let mainImage = document.querySelector('.sale-image');
+    let child = mainImage.querySelector('picture');
     let newImg = `
         <picture>
             <source srcset="
@@ -26,7 +27,8 @@ function changePhotoSale(e) {
         </picture>
                 `;
     console.log(newImg);
-    mainImage.replaceWith(newImg);
+    mainImage.removeChild(child);
+    mainImage.insertAdjacentHTML('beforeend', newImg);
   });
 }
 changePhotoSale();
