@@ -2,7 +2,7 @@
 .sale-container {display: flex;flex-direction: column;gap: 20px}
 .sale-images-container {display: flex;flex-direction: column;gap: 20px}
 .sale-images-list {display: flex;column-gap: 5px}
-.sale-images-item {display: flex;justify-content: center;align-items: center;padding: 12px 13px;border: 1px solid rgba(12,12,12,.05);border-radius: 16px;background-color: var(--cards)}
+.sale-images-item {display: flex;justify-content: center;align-items: center;padding: 12px 13px;border: 1px solid rgba(12,12,12,.05);border-radius: 16px;background-color: var(--cards);cursor: pointer;}
 .sale-image {display: flex;justify-content: center;align-items: center;padding: 50px;border: 1px solid rgba(12,12,12,.05);border-radius: 30px;background-color: var(--cards)}
 .sale-descr {padding: 48px 28px;border-radius: 30px;background-color: #3350e9}
 .sale-descr-title {margin-bottom: 10px;color: var(--cards);font-weight: 600;font-size: 24px;line-height: 1.17;letter-spacing: -.02em}
