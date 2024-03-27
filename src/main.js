@@ -31,4 +31,4 @@ function changePhotoSale(e) {
     mainImage.insertAdjacentHTML('beforeend', newImg);
   });
 }
-changePhotoSale();
+// changePhotoSale();
