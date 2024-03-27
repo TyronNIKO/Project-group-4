@@ -9,7 +9,7 @@
     
 
   <script type="module" crossorigin src="/Project-group-4/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Project-group-4/assets/index-ba2997f9.css">
+  <link rel="stylesheet" href="/Project-group-4/assets/index-a7d9b85f.css">
 </head>
 <body>
     <!-- Header  -->
@@ -61,13 +61,13 @@
                 </a>
             </li>
         </ul>
-        <button class="menu-open-btn" type="button"></button>
+        <button class="menu-open-btn" type="button" onclick="Modal.openMobileMenu('.modal-menu')"></button>
     </div>
 </header>
 <!--============================== Modal===================================== -->
 <div class="modal-menu">
     <div class="modal-menu-container">
-        <button class="modal-menu-close-btn">
+        <button class="modal-menu-close-btn" onclick="Modal.closeMobileMenu('.modal-menu')">
             <svg class="modal-close-btn-icon" aria-label="close icon">
                 <use href="/Project-group-4/assets/sprites-9a34bca7.svg#icon-modal-close"></use>
             </svg>
@@ -264,7 +264,7 @@
   </div>
 </section>
         <!-- About Us -->
-<section class="about-us">
+<section class="about-us" id="about-us">
     <div class="container about-us-container">
         <h2 class="about-us-title">About Us</h2>
         <ul class="about-us-list">
@@ -296,7 +296,7 @@
     </div>
 </section>
         <!-- Catalog  -->
-<section class="catalog">
+<section class="catalog" id="catalog">
     <div class="container">
         <h2 class="catalog-title">Catalog</h2>
         <ul class="catalog-list">
@@ -361,8 +361,8 @@
                     <picture>
                         <source srcset="/Project-group-4/assets/garmin_fenix_6-87ce69a6.png , /Project-group-4/assets/garmin_fenix_6@2x-574badc3.png 2x" media="(min-width: 1280px)">
                         <source srcset="/Project-group-4/assets/garmin_fenix_6_tablet-9cda0e7f.png , /Project-group-4/assets/garmin_fenix_6_tablet@2x-d5491427.png 2x" media="(min-width: 768px)">
-                        <source srcset="/Project-group-4/assets/garmin_fenix_6_mobile-51202bf4.png , /Project-group-4/assets/garmin_fenix_6_mobile@2x-face2b92.png 2x" media="(max-width: 767px)">
-                        <img src="/Project-group-4/assets/garmin_fenix_6_mobile-51202bf4.png" alt="garmin fenix 6">
+                        <source srcset="/Project-group-4/assets/garmin_fenix_6_mobile-f4472a01.png , /Project-group-4/assets/garmin_fenix_6_mobile@2x-111fc39e.png 2x" media="(max-width: 767px)">
+                        <img src="/Project-group-4/assets/garmin_fenix_6_mobile-f4472a01.png" alt="garmin fenix 6">
                     </picture>
                 </div>
                 <div class="catalog-text">
@@ -375,8 +375,8 @@
                     <picture>
                         <source srcset="/Project-group-4/assets/tube_watch-389301b9.png , /Project-group-4/assets/tube_watch@2x-8e004f4b.png 2x" media="(min-width: 1280px)">
                         <source srcset="/Project-group-4/assets/tube_watch_tablet-73177729.png , /Project-group-4/assets/tube_watch_tablet@2x-a6cfbee5.png 2x" media="(min-width: 768px)">
-                        <source srcset="/Project-group-4/assets/tube_watch_mobile-baeb9b1b.png , /Project-group-4/assets/tube_watch_mobile@2x-0e4a2dd4.png 2x" media="(max-width: 767px)">
-                        <img src="/Project-group-4/assets/tube_watch_mobile-baeb9b1b.png" alt="tube watch">
+                        <source srcset="/Project-group-4/assets/tube_watch_mobile-eb42402e.png , /Project-group-4/assets/tube_watch_mobile@2x-ebee4527.png 2x" media="(max-width: 767px)">
+                        <img src="/Project-group-4/assets/tube_watch_mobile-eb42402e.png" alt="tube watch">
                     </picture>
                 </div>
                 <div class="catalog-text">
@@ -389,7 +389,7 @@
     </div>
 </section>
         <!-- Advertisement  -->
-<section>
+<section id="advertisement">
   <div class="container">
     <div class="adv-container">
       <h2 class="adv-title visually-hidden">Advertisement</h2>
