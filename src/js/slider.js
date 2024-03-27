@@ -9,14 +9,8 @@ export default function slider(selector) {
       clickable: true,
     },
     breakpoints: {
-      375: {
-        paceBetween: 16,
-        loop: true,
-        slidesPerView: 1,
-      },
       768: {
         spaceBetween: 16,
-        loop: true,
         slidesPerView: 2,
       },
       1280: {

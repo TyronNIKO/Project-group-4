@@ -1,72 +1,72 @@
 .about-container {
-  background-color: rgba(243, 243, 243, 0.7);
-  border-radius: 30px;
-  padding: 40px 20px;
-  margin-bottom: 20px;
-}
-
-.about-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: var(--main);
-  margin-bottom: 28px;
-}
-.about-text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
-}
-.about-text2 {
-  margin: 20px 0 40px;
-}
-
-.about-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 16px;
-  width: 160px;
-  height: 48px;
-  background: #3350e9;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
-  color: #fbfbfb;
-
-  border: none;
-  transition: background-color 250ms linear;
-}
-
-.about-btn:hover,
-.about-btn:focus {
-  background-color: 1f3cd4;
-}
-
-@media only screen and (min-width: 768px) {
-  .about-container {
-    padding: 80px 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: rgba(243, 243, 243, 0.7);
   }
 
-  .about-text,
+  .about-title {
+    margin-bottom: 28px;
+    color: var(--main);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+  }
+  .about-text {
+    color: rgba(12, 12, 12, 0.7);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+  }
   .about-text2 {
-    max-width: 517px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .about-container {
-    flex-direction: row;
-    padding: 80px 60px;
-    margin-bottom: 0;
+    margin: 20px 0 40px;
   }
 
-  .about-wrapper {
+  .about-btn {
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+
+    border: none;
+    border-radius: 16px;
+    background: #3350e9;
+    color: #fbfbfb;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    transition: background-color 250ms linear;
   }
-}
+
+  .about-btn:hover,
+  .about-btn:focus {
+    background-color: 1f3cd4;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-container {
+      margin-bottom: 40px;
+      padding: 80px 60px;
+    }
+
+    .about-text,
+    .about-text2 {
+      max-width: 517px;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .about-container {
+      flex-direction: row;
+      margin-bottom: 0;
+      padding: 80px 60px;
+    }
+
+    .about-wrapper {
+      display: flex;
+      gap: 40px;
+    }
+  }
