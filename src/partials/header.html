@@ -47,13 +47,13 @@
                 </a>
             </li>
         </ul>
-        <button class="menu-open-btn" type="button"></button>
+        <button class="menu-open-btn" type="button" onclick="Modal.openMobileMenu('.modal-menu')"></button>
     </div>
 </header>
 <!--============================== Modal===================================== -->
 <div class="modal-menu">
     <div class="modal-menu-container">
-        <button class="modal-menu-close-btn">
+        <button class="modal-menu-close-btn" onclick="Modal.closeMobileMenu('.modal-menu')">
             <svg class="modal-close-btn-icon" aria-label="close icon">
                 <use href="/img/sprites.svg#icon-modal-close"></use>
             </svg>
