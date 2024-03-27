@@ -2,10 +2,18 @@
 <section class="sale" id="sale">
   <div class="container">
     <h2 class="sale-title">Sale</h2>
-    <div class="sale-images">
+
+    <div class="sale-images-container">
       <ul class="sale-images-list">
         <li class="sale-images-item">
           <picture>
+            <source
+              srcset="
+                ./img/sale/preview-first.png,
+                ./img/sale/preview-first@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
             <source
               srcset="
                 ./img/sale/preview-first-mobile.png,
@@ -20,6 +28,13 @@
           <picture>
             <source
               srcset="
+                ./img/sale/preview-second.png,
+                ./img/sale/preview-second@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
                 ./img/sale/preview-second-mobile.png,
                 ./img/sale/preview-second-mobile@2x.png 2x
               "
@@ -30,6 +45,12 @@
         </li>
         <li class="sale-images-item">
           <picture>
+            <source
+              srcset="
+                ./img/sale/preview-third.png,
+                ./img/sale/preview-third@2x.png 2x
+              "
+              media="(min-width: 768px)" />
             <source
               srcset="
                 ./img/sale/preview-third-mobile.png,
@@ -43,6 +64,12 @@
           <picture>
             <source
               srcset="
+                ./img/sale/preview-fourth.png,
+                ./img/sale/preview-fourth@2x.png 2x
+              "
+              media="(min-width: 768px)" />
+            <source
+              srcset="
                 ./img/sale/preview-fourth-mobile.png,
                 ./img/sale/preview-fourth-mobile@2x.png 2x
               "
@@ -50,18 +77,24 @@
             <img src="./img/sale/preview-fourth-mobile.png" alt=""
           /></picture>
         </li>
-        <li class="sale-images-item">
-          <picture>
-            <source
-              srcset="
-                ./img/sale/preview-main-mobile.png,
-                ./img/sale/preview-main-mobile@2x.png 2x
-              "
-              media="(max-width: 767px)" />
-            <img src="./img/sale/preview-main-mobile.png" alt=""
-          /></picture>
-        </li>
       </ul>
+      <div class="sale-image">
+        <picture>
+          <source
+            srcset="
+              ./img/sale/preview-main.png,
+              ./img/sale/preview-main@2x.png 2x
+            "
+            media="(min-width: 768px)" />
+          <source
+            srcset="
+              ./img/sale/preview-main-mobile.png,
+              ./img/sale/preview-main-mobile@2x.png 2x
+            "
+            media="(max-width: 767px)" />
+          <img src="./img/sale/preview-main-mobile.png" alt=""
+        /></picture>
+      </div>
     </div>
     <div class="sale-descr">
       <h3 class="sale-descr-title">MARQ® Commander (Gen 2) - Carbon Edition</h3>
