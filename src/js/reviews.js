@@ -8,8 +8,6 @@ export let loadReviews = function (selector) {
     starIndex = 3;
   }
   for (let i = starIndex; i < itemList.length; i++) {
-    console.log(starIndex);
-
     itemList[i].classList.add('js-load-more');
   }
 };
