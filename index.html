@@ -9,7 +9,7 @@
     
 
   <script type="module" crossorigin src="/Project-group-4/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Project-group-4/assets/index-8226b9ce.css">
+  <link rel="stylesheet" href="/Project-group-4/assets/index-17065cdb.css">
 </head>
 <body>
     <!-- Header  -->
@@ -423,7 +423,94 @@
         <button class="btn reviews-btn" type="button" onclick="loadMore('#reviews .js-load-more')">Show more</button>
     </div>
 </section>
-        <!-- Contact Us  -->
+        <section id="contact-us">
+  <div class="contact-us-container container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-content">
+      <div class="contact-us-rectangle">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                name="username"
+                placeholder="Name"
+                required
+                pattern="[A-Za-z0-9]{3,20}"
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                pattern="[0-9]{10}"
+                title="Номер телефону повинен містити 10 цифр."
+                placeholder="+380"
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-label">
+              <textarea
+                class="textarea"
+                name="feedback"
+                rows="2"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+          <button class="contact-us-button" type="button">Send</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <picture>
+          <source
+            media="(min-width:1280px)"
+            srcset="
+              ./img/contact-us/clock-pc.jpg,
+              ./img/contact-usclock-pc@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/Project-group-4/assets/clock-tab-da9e8773.jpg , /Project-group-4/assets/clock-tab@2x-f660c521.jpg 2x"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="/Project-group-4/assets/clock-mob-5d49067c.jpg , /Project-group-4/assets/clock-mob@2x-fdbd63f7.jpg 2x"
+          />
+
+          <img
+            class="contact-us-img"
+            src="/Project-group-4/assets/clock-pc-788403c0.jpg"
+            alt="clock"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
     <!-- Footer Alina -->
 <footer class="page-footer" id="footer-section">
