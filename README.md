@@ -1,5 +1,19 @@
 # Team Project Group 4
+
 Вітаю! Це наш груповий проект. Нижче ви знайдете інформацію для роботи з проектом.
+
+## Учасники проекту
+
+Khrystyna Stasiv - Секція Reviews
+Vladyslav Zaiats - Секція Contact-Us
+Dmitriy Yermak - Секція Catalog
+Anna Poshtar - Секція About-Us
+Serhii Tikhonov - Секція Hero
+Alina Gusak - Header/Допомогла з Footer
+Oleksandr Kotov - Секція Advertisement/Допоміг About-Us
+Andrii Kyrch - Секція Sales
+Liza Zhuravleva - Footer
+Артур Власюк - Створення презентації
 
 ## Вимоги
 
