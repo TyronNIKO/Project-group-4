@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 99;
-  background-color: #fcfcfc;
   border-bottom: 2px solid #e9e9e9;
+  background-color: #fcfcfc;
 }
 
 .header-container {
@@ -36,21 +36,21 @@ up to 1280px*/
   display: flex;
 }
 .header-links-list {
-  margin-left: auto;
   gap: 40px;
+  margin-left: auto;
 }
 .navigation-link {
   display: block;
-  padding-block: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 2px;
+  align-items: center;
+  padding-block: 30px;
+  color: var(--main);
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: var(--main);
 }
 
 .navigation-link::after {
@@ -91,25 +91,25 @@ up to 1280px*/
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
   width: 36px;
   height: 36px;
-  background-color: transparent;
   border: 1px solid;
+  border-radius: 10px;
+  background-color: transparent;
   transition: background-color 500ms ease-in-out; /* Should be adjusted */
 }
 
 .header-social-link {
-  fill: rgba(12, 12, 12, 0.85);
   border-color: rgba(91, 91, 91, 0.1);
+  fill: rgba(12, 12, 12, 0.85);
   transition: fill 500ms ease-in-out; /* Should be adjusted */
 }
 
 .header-social-link:hover,
 .header-social-link:focus {
+  border-color: rgba(251, 251, 251, 0.1);
   background-color: #0c0c0c;
   fill: var(--background);
-  border-color: rgba(251, 251, 251, 0.1);
 }
 
 @media screen and (max-width: 1279px) {
@@ -123,13 +123,13 @@ up to 1280px*/
 /* ======================================================== */
 
 .menu-open-btn {
-  width: 34px;
-  height: 74px;
-  padding: 0 4px;
   display: flex;
   flex-direction: column;
   gap: 7px;
   justify-content: center;
+  width: 34px;
+  height: 74px;
+  padding: 0 4px;
   border: none;
   background-color: transparent;
 }
@@ -137,10 +137,10 @@ up to 1280px*/
 .menu-open-btn::before,
 .menu-open-btn::after {
   content: '';
-  background-color: var(--main);
-  height: 2.5px;
   width: 100%;
+  height: 2.5px;
   border-radius: 2px;
+  background-color: var(--main);
 }
 
 @media screen and (min-width: 768px) {
@@ -148,10 +148,10 @@ up to 1280px*/
     font-size: 20px;
   }
   .menu-open-btn {
+    gap: 8.5px;
     width: 40px;
     height: 92px;
     padding: 0 5px;
-    gap: 8.5px;
   }
 
   .menu-open-btn::before,
@@ -176,9 +176,8 @@ up to 1280px*/
   top: 0;
   right: 0;
   z-index: 999;
-  height: 100dvh;
   width: 200px;
-  transform: translateX(100%);
+  height: 100dvh;
   background-color: var(--main);
   background-image: linear-gradient(
       to bottom,
@@ -186,10 +185,11 @@ up to 1280px*/
       rgba(12, 12, 12, 0.92)
     ),
     url(/img/modal-bg/modal-bg-mobile.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: translate 500ms ease-in-out; /*change is needed */
+  background-repeat: no-repeat;
+  transition: transform 500ms ease-in-out; /*change is needed */
+  transform: translateX(100%);
 }
 .is-open {
   transform: translateX(0%);
@@ -197,28 +197,28 @@ up to 1280px*/
 
 .modal-menu-container {
   position: relative;
-  margin: 0 auto;
-  height: 100%;
-  /* It's nedded for icons to be on the bottom of the screen so 
-  for container 100% height is set */
-  width: 100%;
-  padding-block: 240px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  /* It's nedded for icons to be on the bottom of the screen so
+  for container 100% height is set */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-block: 240px 40px;
 }
 .modal-menu-close-btn {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 34px;
   height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
   border: none;
+  background-color: transparent;
   stroke: var(--background);
 }
 
@@ -244,9 +244,9 @@ up to 1280px*/
 
 .modal-menu-social-link:hover,
 .modal-menu-social-link:focus {
+  border-color: rgba(91, 91, 91, 0.1);
   background-color: #fcfcfc;
   fill: rgba(12, 12, 12, 0.85);
-  border-color: rgba(91, 91, 91, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
