@@ -10,7 +10,7 @@
 .adv-container {padding: 80px 64px;background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(/img/img_advertisement/adv_img_tab@1.png)}
 .adv-text {color: var(--main-text);font-size: 48px;line-height: .92;letter-spacing: -.02em}
 }
-@media only screen and (min-width: 768px) and (max-width: 1279) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) and (min-resolution: 192dpi) {
 .adv-container {background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(/img/img_advertisement/adv_img_tab@2.png)}
 }
 @media only screen and (min-width: 1280px) {
