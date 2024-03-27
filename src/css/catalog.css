@@ -6,6 +6,7 @@
 .catalog-name {margin-bottom: 8px;color: #0c0c0c;font-weight: 500;font-size: 16px;font-family: var(--font-family);line-height: 1.25;letter-spacing: -.02em}
 .catalog-price {margin: 0;color: rgba(12,12,12,.5);font-weight: 400;font-size: 14px;font-family: var(--font-family);line-height: 1.28571;letter-spacing: -.02em}
 .catalog-text {padding: 0 28px 24px}
+.catalog-btn {margin: auto;margin-top: 40px;}
 
 @media screen and (min-width: 768px) {
 .catalog-title {font-size: 48px;line-height: .91667}
